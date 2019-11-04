@@ -1,0 +1,112 @@
+<div class="container" id="surveycontainer">
+
+    <h2>DevWeb Project Survey</h2>
+ <hr>
+
+ <h3><strong>About You</strong></h3>
+ <h4>Full Name</h4>
+ <input type="text" id="name" class="form-control" required>
+
+ <h4>LinkedIn Account URL</h4>
+ <input type="url" id="linkedIn" class="form-control" value="http://linkedin.com/" required>
+
+ <h4>GitHub Account URL</h4>
+ <input type="text" id="gitHub" class="form-control" value="http://github.com/" required>
+
+ <hr>
+
+ <h3><strong>Question 1</strong></h3>
+ <h4>What type of project are you looking to collaborate on?</h4>
+ <select class="form-control form-control-sm" id="q1">
+   <option value=""></option>
+   <option value="Utilities">Utilities</option>
+   <option value="Entertainment">Entertainment</option>
+   <option value="Games">Games</option>
+   <option value="News">News</option>
+   <option value="Productivity">Productivity</option>
+   <option value="Lifestyle">Lifestyle</option>
+   <option value="Social Networking">Social Networking</option>
+ </select>
+
+ <h3><strong>Question 2</strong></h3>
+ <h4>Do you prefer front-end, back-end, or full-stack work?</h4>
+ <select class="form-control form-control-sm" id="q2">
+   <option value=""></option>
+   <option value="Front End">Front-end</option>
+   <option value="Back End">Back-end</option>
+   <option value="Full Stack">Full-stack</option>
+ </select>
+
+ <h3><strong>Question 3</strong></h3>
+ <h4>What server-side language are you looking to use?</h4>
+ <select class="form-control form-control-sm" id="q3">
+   <option value=""></option>
+   <option value="Python">Python</option>
+   <option value="Javascript">Javascript</option>
+   <option value="Ruby">Ruby</option>
+   <option value="Java/Scala">Java/Scala</option>
+   <option value="Go">Go</option>
+   <option value="PHP">PHP</option>
+ </select>
+
+
+ <h3><strong>Question 4</strong></h3>
+ <h4>Which Database are you looking to use?</h4>
+ <select class="form-control form-control-sm" id="q4">
+   <option value=""></option>
+   <option value="MySQL">MySQL</option>
+   <option value="PostgreSQL">PostgreSQL</option>
+   <option value="SQLAlchemy">SQLAlchemy</option>
+   <option value="CouchDB">CouchDB</option>
+   <option value="MongoDB">MonogoDB</option>
+   <option value="DynamoDB">DynamoDB</option>
+ </select>
+
+
+ <h3><strong>Question 5</strong></h3>
+ <h4>Which client-side MVC are you looking to use?</h4>
+ <select class="form-control form-control-sm" id="q5">
+   <option value=""></option>
+   <option value="AngularJS">AngularJS</option>
+   <option value="BackboneJS">BackboneJS</option>
+   <option value="EmberJS">EmberJS</option>
+   <option value="ReactJS">ReactJS</option>
+ </select>
+
+
+ <h3><strong>Question 6</strong></h3>
+ <h4>What is your primary motivation for the project you want to work on?</h4>
+ <select class="form-control form-control-sm" id="q6">
+   <option value=""></option>
+   <option value="Monetary Gain">Monetary gain</option>
+   <option value="Solve a problem">Solve a problem</option>
+   <option value="Societal improvement">Societal improvement</option>
+ </select>
+
+ <h3><strong>Question 7</strong></h3>
+ <h4>Enter any additional information about what you'd like to work on or what you're interested in.</h4>
+ <textarea rows="5" name="extrainfo" id="extrainfo" class="form-control form-control-sm" required></textarea>
+ <hr>
+
+
+    <br>
+    <br>
+
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+     Submit</button>
+
+    <hr>
+</div>
+
+<div class="container" id="surveyresults">
+
+<h2 id="match-name">Matches</h2>
+
+
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/survey.js"></script>
+
+
+

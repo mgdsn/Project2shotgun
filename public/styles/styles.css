@@ -1,0 +1,24 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+th{
+  text-align: center;
+  font-size: 20px;
+  padding:5px;
+  
+}
+tr{
+  text-align: center;
+}
+
+td{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding:5px;
+}
+
+#match-name{
+  text-align: center;
+}
